@@ -23,7 +23,7 @@ for line in handle:
         www.append(lm[1])
         
 for words in www:
-    counts(words) = counts.get(words,0)+1
+    counts[words] = counts.get(words,0)+1
 	
 Bigcount = None
 Bigword = None
